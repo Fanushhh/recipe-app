@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Fanushhh/recipe-app/static/css/main.47a6d4cf.css",
-    "main.js": "/Fanushhh/recipe-app/static/js/main.51038a3b.js",
+    "main.js": "/Fanushhh/recipe-app/static/js/main.31cbb1ff.js",
     "static/media/vecteezy_bibimbap-png-grapihc-clipart-design_20001895_208.png": "/Fanushhh/recipe-app/static/media/vecteezy_bibimbap-png-grapihc-clipart-design_20001895_208.c35fd4798698772ad5fb.png",
     "static/media/vecteezy_bibimbap-png-grapihc-clipart-design_20001024_890.png": "/Fanushhh/recipe-app/static/media/vecteezy_bibimbap-png-grapihc-clipart-design_20001024_890.7c18005510fe06d4e094.png",
     "index.html": "/Fanushhh/recipe-app/index.html",
     "main.47a6d4cf.css.map": "/Fanushhh/recipe-app/static/css/main.47a6d4cf.css.map",
-    "main.51038a3b.js.map": "/Fanushhh/recipe-app/static/js/main.51038a3b.js.map"
+    "main.31cbb1ff.js.map": "/Fanushhh/recipe-app/static/js/main.31cbb1ff.js.map"
   },
   "entrypoints": [
     "static/css/main.47a6d4cf.css",
-    "static/js/main.51038a3b.js"
+    "static/js/main.31cbb1ff.js"
   ]
 }
