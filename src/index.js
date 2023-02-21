@@ -5,17 +5,18 @@ import App from './App';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import SharedLayout from './components/SharedLayout/SharedLayout';
 import RecipePage from './components/RecipePage/RecipePage';
+import { Switch } from '@mui/material';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter basename='/recipe-app'>
-      <Routes>
+      <Switch>
         <Route path='/' element={<SharedLayout />}>
           <Route index element={<App />} />
           <Route path=':recipeId' element={<RecipePage />} />
         </Route>
-      </Routes>
+      </Switch>
     </BrowserRouter>
   </React.StrictMode>
 );
