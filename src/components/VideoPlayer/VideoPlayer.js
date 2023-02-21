@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 function YouTubePlayer({ videoLink }) {
   useEffect(() => {
-    const videoId = videoLink.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=))([\w-]+)/)[1];
+    const videoId = videoLink.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=))([\w-]+)/);
 
     const tag = document.createElement('script');
     tag.src = 'https://www.youtube.com/iframe_api';

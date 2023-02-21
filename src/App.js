@@ -29,6 +29,7 @@ function App() {
   const handleChange = (e) => {
     setQuery(e.target.value);
   }
+  console.log(recipes);
   return (
     <main className="app">
       <div className="cta">
