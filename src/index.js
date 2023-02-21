@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import SharedLayout from './components/SharedLayout/SharedLayout';
 import RecipePage from './components/RecipePage/RecipePage';
-import { Switch } from '@mui/material';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
