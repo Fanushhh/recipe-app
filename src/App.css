@@ -184,9 +184,7 @@ form button:hover{
       right:1rem;
       bottom: 1rem;
     }
-    .searchBar{
-      width: ;
-    }
+    
     .searchBar::placeholder{
       font-size: .75rem;
     }
