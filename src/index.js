@@ -9,7 +9,7 @@ import RecipePage from './components/RecipePage/RecipePage';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/recipe-app'>
       <Routes>
         <Route path='/' element={<SharedLayout />}>
           <Route index element={<App />} />
