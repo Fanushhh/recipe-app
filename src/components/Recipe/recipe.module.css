@@ -1,0 +1,27 @@
+.recipe{
+    max-width: 15rem;
+    text-align: center;
+    gap:2rem;
+}
+.imgContainer{
+    width: 15rem;
+}
+.imgContainer img{
+    border-radius: 15px;
+}
+
+.recipeDetails{
+    padding: .5rem 0;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.recipeDetails h4{
+    color:black;
+}
+
+.favorite{
+    color:red;
+    
+}

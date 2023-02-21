@@ -1,0 +1,26 @@
+.recipeContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 3rem 1rem;
+    gap:2rem;
+    
+}
+
+
+
+@media screen and (max-width:1000px) {
+    .recipeContainer{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .recipeContainer{
+        grid-template-columns: 1fr;
+    }
+    
+}
+

@@ -1,0 +1,28 @@
+
+header{
+    background-color: #A7727D;
+    
+}
+
+nav{
+    display: flex;
+    padding:1rem 0;
+    text-align: center;
+    align-items: center;
+    max-width: 70rem;
+    cursor: pointer;
+    padding: 1rem 3rem;
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+    transition: .1s linear ;
+}
+a:hover{
+    color:#68474e;
+}
+
+
+
+
