@@ -10,7 +10,7 @@ import NoPageFound from './components/404';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HashRouter basename='/recipe-app'>
+    <HashRouter>
       <Routes>
         <Route path='/' element={<SharedLayout />}>
           <Route index element={<App />} />
